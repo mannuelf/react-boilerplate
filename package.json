@@ -1,0 +1,23 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "Education purposes, react boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mannuelf/react-boilerplate.git"
+  },
+  "keywords": [
+    "React",
+    "JavaScript"
+  ],
+  "author": "Mannuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mannuelf/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mannuelf/react-boilerplate#readme"
+}
