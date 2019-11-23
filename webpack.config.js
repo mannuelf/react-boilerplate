@@ -1,4 +1,5 @@
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
     mode: "production", // set mode, development or production, can be set dynamically.
@@ -21,5 +22,6 @@ module.exports = {
                 }
             }
         ]
-    }
+    },
+    plugins: [ new HtmlWebpackPlugin() ]
 }
