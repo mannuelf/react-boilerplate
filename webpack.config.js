@@ -14,7 +14,10 @@ module.exports = {
                 loader: "babel-loader",
                 exclude: /node_modules/,
                 options: {
-                    presets: ["@babel/preset-env"] // transforms modern ES6 to older version in app.bundle
+                    presets: [
+                        "@babel/preset-env",
+                        "@babel/preset-react"
+                    ] // transforms modern ES6 to older version in app.bundle
                 }
             }
         ]
